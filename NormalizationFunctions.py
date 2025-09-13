@@ -26,11 +26,19 @@ class NormalizationFunctions:
     def NaturalLogarithm():
         TransactionDataDf['LnNormalization'] = np.log(TransactionDataDf['TransactionAmount'])
         return TransactionDataDf['LnNormalization']
+    @staticmethod
+        # creating a function that standardizes all the values by using the IQR normalization method
+    def IQRNormalization():
+        TransactionDataDf['IQRNormalization'] = (
+                (TransactionDataDf['TransactionAmount'] - np.median(TransactionDataDf['TransactionAmount'])) / \
+                    (np.percentile(TransactionDataDf['TransactionAmount'], 0.75) - np.percentile(TransactionDataDf['TransactionAmount'], 0.25)))
+        return TransactionDataDf['IQRNormalization']
 
 # Creating the new columns for the TransactionDataDf
 NormalizationFunctions.MinMaxNormalization()
 NormalizationFunctions.ZScoreNormalization()
 NormalizationFunctions.NaturalLogarithm()
+NormalizationFunctions.IQRNormalization()
 
 # Checking to make sure all the data accounted for
 print(TransactionDataDf)

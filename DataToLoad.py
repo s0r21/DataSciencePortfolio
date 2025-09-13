@@ -25,10 +25,10 @@ def TransactionDataFunction():
     }
     return pd.DataFrame(TransactionData)
 
-# Creating a Panadas Data Frame. Using Pandas over Spark due to size of the dataset.
+# Creating a Pandas data frame. Using Pandas over Spark due to size of the dataset.
 CustomerDataDf = CustomerDataFunction()
 TransactionDataDf = TransactionDataFunction()
 
-# Making sure the data got properly loaded into the dataframe
+# Making sure the data is in the dataframe
 # print(CustomerDataDf.head())
 # print(TransactionDataDf.head())
