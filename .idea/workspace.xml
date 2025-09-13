@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b9c040-5b86-48e1-864b-57c848512156" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataToLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataToLoad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NormalizationFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NormalizationFunctions.py" afterDir="false" />
-    </list>
+    <list default="true" id="50b9c040-5b86-48e1-864b-57c848512156" name="Changes" comment="Created IQR normalization and added more comments to the code." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,9 +51,10 @@
     &quot;Python.ReadMe.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -65,7 +62,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.NormalizationFunctions">
+  <component name="RunManager" selected="Python.DataToLoad">
     <configuration name="DataToLoad" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataSciencePortfolio" />
       <option name="ENV_FILES" value="" />
@@ -93,6 +90,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -151,6 +151,19 @@
       <option name="presentableId" value="Default" />
       <updated>1757784229197</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created IQR normalization and added more comments to the code.">
+      <option name="closed" value="true" />
+      <created>1757793761054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757793761054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created IQR normalization and added more comments to the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created IQR normalization and added more comments to the code." />
   </component>
 </project>

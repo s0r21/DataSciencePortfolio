@@ -8,7 +8,7 @@ from DataToLoad import *
 
 class NormalizationFunctions:
     @staticmethod
-        # Creating a function that standardizes the dataset using min/max normalization
+        # Creating a function that normalizes the dataset using min/max normalization
     def MinMaxNormalization():
         TransactionDataDf['MinMaxDollarsNormalized'] = \
             (TransactionDataDf['TransactionAmount'] - np.min(TransactionDataDf['TransactionAmount'])) / \
@@ -22,7 +22,7 @@ class NormalizationFunctions:
             np.std(TransactionDataDf['TransactionAmount'])
         return TransactionDataDf['ZScoreNormalization']
     @staticmethod
-        # Creating a function that standardizes all the values by converting them to ln(x)
+        # Creating a function that normalizes all the values by converting them to ln(x)
     def NaturalLogarithm():
         TransactionDataDf['LnNormalization'] = np.log(TransactionDataDf['TransactionAmount'])
         return TransactionDataDf['LnNormalization']
