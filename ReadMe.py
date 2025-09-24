@@ -6,3 +6,5 @@
     # NormalizationFunctions.py - Shows all the normalization functions that I've used in the past.
     # PandasManipulation.py - Does some data wrangling using Pandas.
     # Bootstrapping.py - Creates a random sample and using bootstrapping to get the averages to get a more central distribution.
+    # PermutationTesting.py - Creates a permutation test for arrays with binary data to simulate real data.
+    # DescriptiveStatistics.py - Looks at a few summary statistics for arrays at a high level

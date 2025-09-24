@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b9c040-5b86-48e1-864b-57c848512156" name="Changes" comment="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot.">
+      <change afterPath="$PROJECT_DIR$/DescriptiveStatistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PermutationTesting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +53,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Bootstrapping.executor": "Run",
     "Python.DataToLoad.executor": "Run",
+    "Python.DescriptiveStatistics.executor": "Run",
     "Python.NormalizationFunctions.executor": "Run",
     "Python.Packages.executor": "Run",
     "Python.PandasManipulation.executor": "Run",
+    "Python.PermutationTesting.executor": "Run",
     "Python.ReadMe.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +72,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Bootstrapping">
+  <component name="RunManager" selected="Python.PermutationTesting">
     <configuration name="Bootstrapping" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataSciencePortfolio" />
       <option name="ENV_FILES" value="" />
@@ -102,6 +107,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataToLoad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DescriptiveStatistics" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataSciencePortfolio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (DataSciencePortfolio)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DescriptiveStatistics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,6 +180,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PermutationTesting" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataSciencePortfolio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (DataSciencePortfolio)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PermutationTesting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ReadMe" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataSciencePortfolio" />
       <option name="ENV_FILES" value="" />
@@ -183,6 +228,8 @@
       <item itemvalue="Python.NormalizationFunctions" />
       <item itemvalue="Python.ReadMe" />
       <item itemvalue="Python.Bootstrapping" />
+      <item itemvalue="Python.DescriptiveStatistics" />
+      <item itemvalue="Python.PermutationTesting" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -249,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758409142350</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot.">
+      <option name="closed" value="true" />
+      <created>1758679439217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758679439217</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
