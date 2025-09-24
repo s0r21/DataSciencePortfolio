@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b9c040-5b86-48e1-864b-57c848512156" name="Changes" comment="Improved on the PandasManipulation.py script.">
-      <change afterPath="$PROJECT_DIR$/Bootstrapping.py" afterDir="false" />
+    <list default="true" id="50b9c040-5b86-48e1-864b-57c848512156" name="Changes" comment="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Packages.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,12 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1757807718706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot.">
+      <option name="closed" value="true" />
+      <created>1758409142350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758409142350</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created IQR normalization and added more comments to the code." />
     <MESSAGE value="Improved on the PandasManipulation.py script." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved on the PandasManipulation.py script." />
+    <MESSAGE value="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a new script Bootstrapping.py and brought in scikit-learn &amp; pyplot." />
   </component>
 </project>

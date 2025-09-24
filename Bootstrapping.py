@@ -1,10 +1,6 @@
 # script created for bootstrapping method
-import random
-
-from sklearn.utils import resample
 
 from Packages import *
-
 
 RandomArray = pd.DataFrame(list(random.sample(range(1500), 1000)))
 
